@@ -1,6 +1,6 @@
 # Bach Cantata of the Week
 
-![Bach Cantata of the Week Logo](branding/logo.png)
+![Bach Cantata of the Week Logo](brand/logo.png)
 
 A Home Assistant integration that displays the Bach Cantata(s) for the current or upcoming Sunday according to the Lutheran liturgical calendar.
 

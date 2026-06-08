@@ -1,4 +1,4 @@
-name: Create Version Tag
+name: Create Tag and Release
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  tag:
-    name: Create Tag
+  release:
+    name: Tag and Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,21 +23,32 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create and push tag
+        id: create_tag
         shell: bash
         run: |
           TAG_NAME="v${{ steps.get_version.outputs.VERSION }}"
-          echo "Checking if tag $TAG_NAME exists..."
+          echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
           
           # Fetch tags to ensure we have the latest information
           git fetch --tags
           
           if git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
             echo "Tag $TAG_NAME already exists. Skipping tag creation."
+            echo "created=false" >> $GITHUB_OUTPUT
           else
             echo "Creating tag $TAG_NAME..."
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git tag "$TAG_NAME"
             git push origin "$TAG_NAME"
+            echo "created=true" >> $GITHUB_OUTPUT
             echo "Tag $TAG_NAME pushed successfully."
           fi
+
+      - name: Create Release
+        if: steps.create_tag.outputs.created == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.create_tag.outputs.tag_name }}
+          name: Release ${{ steps.create_tag.outputs.tag_name }}
+          generate_release_notes: true

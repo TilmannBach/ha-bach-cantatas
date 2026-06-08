@@ -1,0 +1,43 @@
+name: Create Version Tag
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tag:
+    name: Create Tag
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Extract version from manifest
+        id: get_version
+        shell: bash
+        run: |
+          VERSION=$(jq -r .version custom_components/bach_cantata/manifest.json)
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create and push tag
+        shell: bash
+        run: |
+          TAG_NAME="v${{ steps.get_version.outputs.VERSION }}"
+          echo "Checking if tag $TAG_NAME exists..."
+          
+          # Fetch tags to ensure we have the latest information
+          git fetch --tags
+          
+          if git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
+            echo "Tag $TAG_NAME already exists. Skipping tag creation."
+          else
+            echo "Creating tag $TAG_NAME..."
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git tag "$TAG_NAME"
+            git push origin "$TAG_NAME"
+            echo "Tag $TAG_NAME pushed successfully."
+          fi

@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bach Cantata of the Week",
+        "description": "Add the Bach Cantata sensor. It will automatically show the cantata(s) assigned to the current or next Sunday in the Lutheran liturgical calendar."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Only one instance of Bach Cantata can be configured."
+    }
+  }
+}

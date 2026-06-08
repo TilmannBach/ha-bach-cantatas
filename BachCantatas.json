@@ -1,0 +1,1224 @@
+{
+  "Advent1": [
+    {
+      "Name": "Schwingt freudig euch empor",
+      "Bwv": "36",
+      "SpotifyUrl": "https://open.spotify.com/track/0hYlB2wi2TFS4JVfZg1oyq?si=ZW1BIbdnTau1flyUkPiqdQ"
+    },
+    {
+      "Name": "Nun komm, der Heiden Heiland",
+      "Bwv": "61",
+      "SpotifyUrl": "NN"
+    },
+    {
+      "Name": "Nun komm, der Heiden Heiland",
+      "Bwv": "62",
+      "SpotifyUrl": "NN"
+    }
+  ],
+  
+  "Advent2": [
+    {
+      "Name": "Wachet! betet! betet! wachet!",
+      "Bwv": "70a",
+      "SpotifyUrl": null,
+      "CantataStatus": "NotAvailable"
+    }
+  ],
+  
+  "Advent3": [
+    {
+      "Name": "Ärgre dich, o Seele, nicht",
+      "Bwv": "186a",
+      "SpotifyUrl": null,
+      "Status": "NotAvailable"
+    }
+  ],
+  "Advent4": [
+    {
+      "Name": "Bereitet die Wege, bereitet die Bahn!",
+      "Bwv": "132",
+      "SpotifyUrl": "NN"
+    },
+    {
+      "Name": "Herz und Mund und Tat und Leben",
+      "Bwv": "147a",
+      "SpotifyUrl": null,
+      "Status": "NotAvailable"
+    },
+    {
+      "Name": "Nun komm, der Heiden Heiland",
+      "Bwv": "62",
+      "SpotifyUrl": "NN"
+    }
+  ],
+  
+  "ChristmasDay1": [
+    {
+      "Name": "Christen, ätzet diesen Tag",
+      "Bwv": "63",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Gelobet seist du, Jesu Christ",
+      "Bwv": "91",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Unser Mund sei voll Lachens",
+      "Bwv": "110",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Gloria in excelsis Deo",
+      "Bwv": "191",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ehre sei Gott in der Höhe",
+      "Bwv": "197a",
+      "SpotifyUrl": null,
+      "Status": "Incomplete"
+    }
+  ],
+  
+  "ChristmasDay2": [
+    {
+      "Name": "Darzu ist erschienen der Sohn Gottes",
+      "Bwv": "40",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Selig ist der Mann",
+      "Bwv": "57",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Christum wir sollen loben schon",
+      "Bwv": "121",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "SundayAfterChristmas": [
+    {
+      "Name": "Gottlob! nun geht das Jahr zu Ende",
+      "Bwv": "28",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Das neugeborne Kindelein",
+      "Bwv": "122",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Tritt auf die Glaubensbahn",
+      "Bwv": "152",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "NewYearsDay": [
+    {
+      "Name": "Herr Gott, dich loben wir",
+      "Bwv": "16",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Jesu, nun sei gepreiset",
+      "Bwv": "41",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Lobe den Herrn, meine Seele",
+      "Bwv": "143",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Gott, wie dein Name, so ist auch dein Ruhm",
+      "Bwv": "171",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Singet dem Herrn ein neues Lied",
+      "Bwv": "190",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "Epiphany": [
+    {
+      "Name": "Sie werden aus Saba alle kommen",
+      "Bwv": "65",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Liebster Immanuel, Herzog der Frommen",
+      "Bwv": "123",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "Sunday1AfterEpiphany": [
+    {
+      "Name": "Liebster Jesu, mein Verlangen",
+      "Bwv": "32",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Meinen Jesum laß ich nicht",
+      "Bwv": "124",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ach Gott, wie manches Herzeleid",
+      "Bwv": "58",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Schau, lieber Gott, wie meine Feind",
+      "Bwv": "153",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Mein liebster Jesus ist verloren",
+      "Bwv": "154",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday2AfterEpiphany": [
+    {
+      "Name": "Ach Gott, wie manches Herzeleid",
+      "Bwv": "3",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Meine Seufzer, meine Tränen",
+      "Bwv": "13",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Mein Gott, wie lang, ach lange?",
+      "Bwv": "155",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "Sunday3AfterEpiphany": [
+    {
+      "Name": "Alles nur nach Gottes Willen",
+      "Bwv": "72",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Herr, wie du willt, so schicks mit mir",
+      "Bwv": "73",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Was mein Gott will, das g’scheh allzeit",
+      "Bwv": "111",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ich steh mit einem Fuß im Grabe",
+      "Bwv": "156",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "Sunday4AfterEpiphany": [
+    {
+      "Name": "Wär Gott nicht mit uns diese Zeit",
+      "Bwv": "14",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Jesus schläft, was soll ich hoffen?",
+      "Bwv": "81",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  
+  "Septuagesimae": [
+    {
+      "Name": "Ich bin vergnügt mit meinem Glücke",
+      "Bwv": "84",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ich hab in Gottes Herz und Sinn",
+      "Bwv": "92",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Nimm, was dein ist, und gehe hin",
+      "Bwv": "144",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "Sexagesimae": [
+    {
+      "Name": "Gleichwie der Regen und Schnee vom Himmel fällt",
+      "Bwv": "18",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Erhalt uns, Herr, bei deinem Wort",
+      "Bwv": "126",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Leichtgesinnte Flattergeister",
+      "Bwv": "181",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  
+  "Estomihi": [
+    {
+      "Name": "Jesus nahm zu sich die Zwölfe",
+      "Bwv": "22",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Du wahrer Gott und Davids Sohn",
+      "Bwv": "23",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Herr Jesu Christ, wahr’ Mensch und Gott",
+      "Bwv": "127",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Sehet! Wir gehn hinauf gen Jerusalem",
+      "Bwv": "159",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  
+  "Oculi": [
+    {
+      "Name": "Widerstehe doch der Sünde",
+      "Bwv": "54",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Alles, was von Gott geboren",
+      "Bwv": "80a",
+      "SpotifyUrl": null,
+      "Status": "NotAvailable"
+    }
+  ],
+
+  "Palmarum": [
+    {
+      "Name": "Himmelskönig, sei willkommen",
+      "Bwv": "182",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+ "EasterSunday": [
+    {
+      "Name": "Christ lag in Todes Banden",
+      "Bwv": "4",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+  {
+      "Name": "Der Himmel lacht! Die Erde jubilieret",
+      "Bwv": "31",
+      "SpotifyUrl": "NN",
+    "Status": "Accessible"
+    }
+  ],
+  
+"EasterMonday": [
+    {
+      "Name": "Bleib bei uns, denn es will Abend werden",
+      "Bwv": "6",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+  {
+      "Name": "Erfreut euch, ihr Herzen",
+      "Bwv": "66",
+      "SpotifyUrl": "NN",
+    "Status": "Accessible"
+    }
+  ],
+
+"EasterTuesday": [
+    {
+      "Name": "Ein Herz, das seinen Jesum lebend weiß",
+      "Bwv": "134",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+  {
+      "Name": "Der Friede sei mit dir",
+      "Bwv": "158",
+      "SpotifyUrl": "NN",
+    "Status": "Accessible"
+    },
+  {
+      "Name": "Ich lebe, mein Herze, zu deinem Ergötzen",
+      "Bwv": "145",
+      "SpotifyUrl": "NN",
+    "Status": "Accessible"
+    }
+  ],
+
+  "Quasimodogeniti": [
+    {
+      "Name": "Am Abend aber desselbigen Sabbats",
+      "Bwv": "42",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Halt im Gedächtnis Jesum Christ",
+      "Bwv": "67",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "MisericordiasDomini": [
+    {
+      "Name": "Ich bin ein guter Hirt",
+      "Bwv": "85",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Du Hirte Israel, höre",
+      "Bwv": "104",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Der Herr ist mein getreuer Hirt",
+      "Bwv": "112",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  
+  "Jubilate": [
+  {
+    "Name": "Weinen, Klagen, Sorgen, Zagen",
+    "Bwv": "12",
+    "SpotifyUrl": "NN",
+    "Status": "Accessible"
+  },
+  {
+    "Name": "Ihr werdet weinen und heulen",
+    "Bwv": "103",
+    "SpotifyUrl": "NN",
+    "Status": "Accessible"
+  },
+  {
+    "Name": "Wir müssen durch viel Trübsal",
+    "Bwv": "146",
+    "SpotifyUrl": "NN",
+    "Status": "Accessible"
+  }
+],
+  "Kantate": [
+  {
+    "Name": "Es ist euch gut, daß ich hingehe",
+    "Bwv": "108",
+    "SpotifyUrl": "NN",
+    "Status": "Accessible"
+  },
+  {
+    "Name": "Wo gehest du hin?",
+    "Bwv": "166",
+    "SpotifyUrl": "NN",
+    "Status": "Accessible"
+  }
+],
+  
+  "Rogate": [
+    {
+      "Name": "Wahrlich, wahrlich, ich sage euch",
+      "Bwv": "86",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Bisher habt ihr nichts gebeten in meinem Namen",
+      "Bwv": "87",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "Exaudi": [
+    {
+      "Name": "Sie werden euch in den Bann tun",
+      "Bwv": "44",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Sie werden euch in den Bann tun",
+      "Bwv": "183",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  
+  "Ascension": [
+    {
+      "Name": "Lobet Gott in seinen Reichen",
+      "Bwv": "11",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Gott fähret auf mit Jauchzen",
+      "Bwv": "43",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Auf Christi Himmelfahrt allein",
+      "Bwv": "128",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+    {
+      "Name": "Wer da gläubet und getauft wird",
+      "Bwv": "37",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "PentecostSunday": [
+    {
+      "Name": "O ewiges Feuer, o Ursprung der Liebe",
+      "Bwv": "34",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Wer mich liebet, der wird mein Wort halten",
+      "Bwv": "59",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Wer mich liebet, der wird mein Wort halten",
+      "Bwv": "74",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+    {
+      "Name": "Erschallet, ihr Lieder, erklinget, ihr Saiten!",
+      "Bwv": "172",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  "PentecostMonday": [
+    {
+      "Name": "Also hat Gott die Welt geliebt",
+      "Bwv": "68",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Erhöhtes Fleisch und Blut",
+      "Bwv": "73",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Ich liebe den Höchsten von ganzem Gemüte",
+      "Bwv": "174",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "PentecostTuesday": [
+    {
+      "Name": "Er rufet seinen Schafen mit Namen",
+      "Bwv": "175",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Erwünschtes Freudenlicht",
+      "Bwv": "184",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  "Trinity": [
+    {
+      "Name": "Gelobet sei der Herr, mein Gott",
+      "Bwv": "129",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Es ist ein trotzig und verzagt Ding",
+      "Bwv": "176",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Höchsterwünschtes Freudenfest",
+      "Bwv": "194",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "O heilges Geist- und Wasserbad",
+      "Bwv": "165",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday1AfterTrinity": [
+    {
+      "Name": "O Ewigkeit, du Donnerwort",
+      "Bwv": "20",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Brich dem Hungrigen dein Brot",
+      "Bwv": "39",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Die Elenden sollen essen",
+      "Bwv": "75",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  "Sunday2AfterTrinity": [
+    {
+      "Name": "Ach Gott, vom Himmel sieh darein",
+      "Bwv": "2",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Die Himmel erzählen die Ehre Gottes",
+      "Bwv": "76",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday3AfterTrinity": [
+    {
+      "Name": "Ich hatte viel Bekümmernis",
+      "Bwv": "21",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Ach Herr, mich armen Sünder",
+      "Bwv": "135",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday4AfterTrinity": [
+    {
+      "Name": "Ein ungefärbt Gemüte",
+      "Bwv": "24",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Barmherziges Herze der ewigen Liebe",
+      "Bwv": "185",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Ich ruf zu dir, Herr Jesu Christ",
+      "Bwv": "177",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday5AfterTrinity": [
+    {
+      "Name": "Siehe, ich will viel Fischer aussenden",
+      "Bwv": "88",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Wer nur den lieben Gott läßt walten",
+      "Bwv": "93",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday6AfterTrinity": [
+    {
+      "Name": "Es ist das Heil uns kommen her",
+      "Bwv": "9",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Vergnügte Ruh, beliebte Seelenlust",
+      "Bwv": "170",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday7AfterTrinity": [
+    {
+      "Name": "Was willst du dich betrüben",
+      "Bwv": "107",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Es wartet alles auf dich",
+      "Bwv": "187",
+      "SpotifyUrl": "https://open.spotify.com/track/1D6VIa5xJcKeyBWD5hnUBY?si=V9VHB_MrTK6ZhzAVa9xsJw",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Ärgre dich, o Seele, nicht",
+      "Bwv": "186",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday8AfterTrinity": [
+    {
+      "Name": "Es ist dir gesagt, Mensch, was gut ist",
+      "Bwv": "45",
+      "SpotifyUrl": "https://open.spotify.com/track/2pBNdfR4RbXe4DoPjv02dy?si=04tG1CfTSlGQwPbEJoVyjA",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Erforsche mich, Gott, und erfahre mein Herz",
+      "Bwv": "136",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Wo Gott der Herr nicht bei uns hält",
+      "Bwv": "178",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday9AfterTrinity": [
+    {
+      "Name": "Was frag ich nach der Welt",
+      "Bwv": "94",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Herr, gehe nicht ins Gericht mit deinem Knecht",
+      "Bwv": "105",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Tue Rechnung! Donnerwort",
+      "Bwv": "168",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday10AfterTrinity": [
+    {
+      "Name": "Schauet doch und sehet, ob irgend ein Schmerz sei",
+      "Bwv": "46",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Nimm von uns, Herr, du treuer Gott",
+      "Bwv": "101",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Herr, deine Augen sehen nach dem Glauben",
+      "Bwv": "102",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday11AfterTrinity": [
+    {
+      "Name": "Herr Jesu Christ, du höchstes Gut",
+      "Bwv": "113",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Siehe zu, daß deine Gottesfurcht nicht Heuchelei sei",
+      "Bwv": "179",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Mein Herze schwimmt im Blut",
+      "Bwv": "199",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday12AfterTrinity": [
+    {
+      "Name": "Geist und Seele wird verwirret",
+      "Bwv": "35",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Lobe den Herren, den mächtigen König der Ehren",
+      "Bwv": "137",
+      "SpotifyUrl": "https://open.spotify.com/track/6DP7dwc8BuynEzAJfzzJBe?si=gFEl5KR5Rs6qrhYvW1cHtQ",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Lobe den Herrn, meine Seele",
+      "Bwv": "69a",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday13AfterTrinity": [
+    {
+      "Name": "Allein zu dir, Herr Jesu Christ",
+      "Bwv": "33",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Du sollt Gott, deinen Herren, lieben",
+      "Bwv": "77",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Ihr, die ihr euch von Christo nennet",
+      "Bwv": "164",
+      "SpotifyUrl": "https://open.spotify.com/track/46LSO3NnDEy8JsgCPVjzDv?si=X4l3UFgzTn2oA6Dx-b-OIg",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday14AfterTrinity": [
+    {
+      "Name": "Wer Dank opfert, der preiset mich",
+      "Bwv": "17",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Es ist nichts Gesundes an meinem Leibe",
+      "Bwv": "25",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Jesu, der du meine Seele",
+      "Bwv": "78",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday15AfterTrinity": [
+    {
+      "Name": "Jauchzet Gott in allen Landen",
+      "Bwv": "51",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Was Gott tut, das ist wohlgetan",
+      "Bwv": "99",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Warum betrübst du dich, mein Herz",
+      "Bwv": "138",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday16AfterTrinity": [
+    {
+      "Name": "Liebster Gott, wenn werd ich sterben",
+      "Bwv": "8",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+   {
+      "Name": "Wer weiß, wie nahe mir mein Ende?",
+      "Bwv": "27",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Komm, du süße Todesstunde",
+      "Bwv": "161",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    },
+   {
+      "Name": "Christus, der ist mein Leben",
+      "Bwv": "95",
+      "SpotifyUrl": "NN",
+     "Status": "Accessible"
+    }
+  ],
+
+  "Sunday17AfterTrinity": [
+    {
+      "Name": "Wer sich selbst erhöhet, der soll erniedriget werden",
+      "Bwv": "47",
+      "SpotifyUrl": "https://open.spotify.com/track/4U6jQmpDy0xhtIwtQX2bWg?si=gzw0aXiJSGefcaEnWJmCNg",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ach, lieben Christen, seid getrost",
+      "Bwv": "114",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Bringet dem Herrn Ehre seines Namens",
+      "Bwv": "148",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "Sunday18AfterTrinity": [
+    {
+      "Name": "Herr Christ, der einge Gottessohn",
+      "Bwv": "96",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Gott soll allein mein Herze haben",
+      "Bwv": "169",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "Sunday19AfterTrinity": [
+    {
+      "Name": "Wo soll ich fliehen hin",
+      "Bwv": "5",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ich elender Mensch, wer wird mich erlösen",
+      "Bwv": "48",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ich will den Kreuzstab gerne tragen",
+      "Bwv": "56",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "Sunday20AfterTrinity": [
+    {
+      "Name": "Ich geh und suche mit Verlangen",
+      "Bwv": "49",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ach! ich sehe, itzt, da ich zur Hochzeit gehe",
+      "Bwv": "162",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "Sunday21AfterTrinity": [
+    {
+      "Name": "Aus tiefer Not schrei ich zu dir",
+      "Bwv": "38",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Was Gott tut, das ist wohlgetan",
+      "Bwv": "98",
+      "SpotifyUrl": "https://open.spotify.com/track/1lyXrrFfMwzQYH2uGAllfs?si=7YkZCX_9R1-gZd7fAIIB8w",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ich glaube, lieber Herr, hilf meinem Unglauben!",
+      "Bwv": "109",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "Sunday22AfterTrinity": [
+    {
+      "Name": "Ich armer Mensch, ich Sündenknecht",
+      "Bwv": "55",
+      "SpotifyUrl": "https://open.spotify.com/track/2bDu5ylA5ALO65ufXlb3r2?si=v5MoR2e0Skux8xw_KJwASg",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Was soll ich aus dir machen, Ephraim",
+      "Bwv": "98",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Mache dich, mein Geist, bereit",
+      "Bwv": "115",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  
+  "Sunday23AfterTrinity": [
+    {
+      "Name": "Falsche Welt, dir trau ich nicht!",
+      "Bwv": "52",
+      "SpotifyUrl": "https://open.spotify.com/track/0lPBQRhBbgEqmhfEihVLhN?si=gFEXeB-9TeKw0D8YbrrF1A",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Wohl dem, der sich auf seinen Gott",
+      "Bwv": "139",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Nur jedem das Seine",
+      "Bwv": "163",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "Sunday24AfterTrinity": [
+    {
+      "Name": "Ach wie flüchtig, ach wie nichtig",
+      "Bwv": "26",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "O Ewigkeit, du Donnerwort",
+      "Bwv": "160",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Nur jedem das Seine",
+      "Bwv": "163",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "Reformation": [
+    {
+      "Name": "Gott der Herr ist Sonn und Schild",
+      "Bwv": "79",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ein feste Burg ist unser Gott",
+      "Bwv": "80",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ein feste Burg ist unser Gott",
+      "Bwv": "80b",
+      "SpotifyUrl": null,
+      "Status": "Fragment"
+    }
+  ],
+  
+  "StJohn": [
+    {
+      "Name": "Christ unser Herr zum Jordan kam",
+      "Bwv": "7",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Freue dich, erlöste Schar",
+      "Bwv": "30",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Ihr Menschen, rühmet Gottes Liebe",
+      "Bwv": "167",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+  
+  " StMichael": [
+    {
+      "Name": "Es erhub sich ein Streit",
+      "Bwv": "19",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Nun ist das Heil und die Kraft",
+      "Bwv": "50",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Man singet mit Freuden vom Sieg",
+      "Bwv": "149",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Herr Gott, dich loben alle wir",
+      "Bwv": "130",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "MaryVisitation": [
+    {
+      "Name": "Meine Seel erhebt den Herren",
+      "Bwv": "10",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Herz und Mund und Tat und Leben",
+      "Bwv": "147",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+ 
+  "Annunciation": [
+    {
+      "Name": "Wie schön leuchtet der Morgenstern",
+      "Bwv": "1",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Herz und Mund und Tat und Leben",
+      "Bwv": "147",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ],
+
+  "Presentation": [
+    {
+      "Name": "Ich habe genug",
+      "Bwv": "82",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    },
+    {
+      "Name": "Erfreute Zeit im neuen Bunde",
+      "Bwv": "83",
+      "SpotifyUrl": "NN"
+    },
+    {
+      "Name": "Bekennen will ich seinen Namen",
+      "Bwv": "200",
+      "SpotifyUrl": null,
+      "Status": "Incomplete"
+    },
+    {
+      "Name": "Mit Fried und Freud ich fahr dahin",
+      "Bwv": "125",
+      "SpotifyUrl": "NN",
+      "Status": "Accessible"
+    }
+  ]
+  
+}

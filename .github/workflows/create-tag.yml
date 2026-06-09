@@ -9,15 +9,14 @@ permissions:
   contents: write
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   bump:
     name: Bump manifest version (conventional commits)
     runs-on: ubuntu-latest
     env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
       ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
     outputs:
       bumped: ${{ steps.bump.outputs.bumped }}

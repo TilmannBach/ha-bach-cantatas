@@ -10,6 +10,5 @@
   "requirements": [],
   "iot_class": "calculated",
   "integration_type": "service",
-  "icon": "mdi:music-clef-treble",
   "config_flow": true
 }

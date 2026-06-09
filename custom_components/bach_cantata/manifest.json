@@ -1,14 +1,14 @@
 {
   "domain": "bach_cantata",
   "name": "Bach Cantata of the Week",
-  "version": "1.0.7",
-  "documentation": "https://github.com/TilmannBach/ha-bach-cantatas",
-  "issue_tracker": "https://github.com/TilmannBach/ha-bach-cantatas/issues",
   "codeowners": [
     "@TilmannBach"
   ],
-  "requirements": [],
-  "iot_class": "calculated",
+  "config_flow": true,
+  "documentation": "https://github.com/TilmannBach/ha-bach-cantatas",
   "integration_type": "service",
-  "config_flow": true
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/TilmannBach/ha-bach-cantatas/issues",
+  "requirements": [],
+  "version": "1.0.7"
 }

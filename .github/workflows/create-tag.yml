@@ -23,31 +23,20 @@ jobs:
       new_version: ${{ steps.bump.outputs.new_version }}
       tag_name: ${{ steps.bump.outputs.tag_name }}
     steps:
-      - name: Checkout repository using git (no JavaScript actions)
-        shell: bash
-        env:
-          REPO: ${{ github.repository }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REF: ${{ github.ref_name }}
-        run: |
-          set -euo pipefail
-          echo "Cloning repository $REPO into $GITHUB_WORKSPACE"
-          git init
-          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO}.git"
-          # Fetch with tags and history so bump script can find latest tag
-          git fetch --prune --tags origin "$REF" --depth=1 || git fetch --prune --tags origin --depth=1
-          git checkout --force FETCH_HEAD
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Ensure python3 is available
-        shell: bash
-        run: |
-          python3 --version
-          python3 -m pip --version
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
 
       - name: Run bump script
         id: bump
         run: |
-          python3 .github/scripts/bump_manifest_version.py > bump_output.txt
+          python .github/scripts/bump_manifest_version.py > bump_output.txt
           echo "bumped=$(grep -m1 '^bumped=' bump_output.txt | cut -d'=' -f2)" >> $GITHUB_OUTPUT
           echo "new_version=$(grep -m1 '^new_version=' bump_output.txt | cut -d'=' -f2)" >> $GITHUB_OUTPUT
           echo "tag_name=$(grep -m1 '^tag_name=' bump_output.txt | cut -d'=' -f2)" >> $GITHUB_OUTPUT

@@ -4,6 +4,7 @@ import subprocess
 import sys
 import re
 from pathlib import Path
+import os
 
 MANIFEST_PATH = Path('custom_components/bach_cantata/manifest.json')
 
@@ -137,7 +138,29 @@ if update_manifest:
     subprocess.check_call(['git', 'add', str(MANIFEST_PATH)])
     subprocess.check_call(['git', 'commit', '-m', f'chore(release): bump version to {new_version} [skip ci]'])
     # push the commit
-    subprocess.check_call(['git', 'push', 'origin', 'HEAD'])
+    # Determine a fully-qualified ref to push to (preferred) to avoid "not a full refname" errors.
+    push_ref = None
+    github_ref = os.environ.get('GITHUB_REF', '')
+    github_ref_name = os.environ.get('GITHUB_REF_NAME', '')
+    if github_ref.startswith('refs/heads/'):
+        branch = github_ref.split('/', 2)[2]
+        push_ref = f'HEAD:refs/heads/{branch}'
+    elif github_ref_name:
+        push_ref = f'HEAD:refs/heads/{github_ref_name}'
+    else:
+        # Try to resolve the current branch name locally
+        current_branch = run(['git', 'rev-parse', '--abbrev-ref', 'HEAD'])
+        if current_branch and current_branch != 'HEAD':
+            push_ref = f'HEAD:refs/heads/{current_branch}'
+
+    try:
+        if push_ref:
+            subprocess.check_call(['git', 'push', 'origin', push_ref])
+        else:
+            subprocess.check_call(['git', 'push', 'origin', 'HEAD'])
+    except subprocess.CalledProcessError:
+        # Fallback: try a plain HEAD push to allow older setups to continue (will fail in some runner setups)
+        subprocess.check_call(['git', 'push', 'origin', 'HEAD'])
 
 # create and push tag
 subprocess.check_call(['git', 'tag', new_tag])

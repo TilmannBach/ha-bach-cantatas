@@ -1,13 +1,13 @@
 {
   "domain": "bach_cantata",
   "name": "Bach Cantata of the Week",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "documentation": "https://github.com/TilmannBach/ha-bach-cantatas",
   "issue_tracker": "https://github.com/TilmannBach/ha-bach-cantatas/issues",
   "codeowners": ["@TilmannBach"],
   "requirements": [],
   "iot_class": "calculated",
-  "integration_type": "entity",
+  "integration_type": "service",
   "icon": "mdi:music-clef-treble",
   "config_flow": true
 }

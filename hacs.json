@@ -1,6 +1,5 @@
 {
   "name": "Bach Cantata of the Week",
   "render_readme": true,
-  "content_type": "integration",
   "homeassistant": "2024.1.0"
 }

@@ -45,6 +45,8 @@ jobs:
 
       - name: Run HACS Action
         uses: hacs/action@22.5.0
+        with:
+          category: integration
 
   hassfest:
     name: Hassfest

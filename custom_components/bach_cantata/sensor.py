@@ -32,7 +32,7 @@ class BachCantataSensor(SensorEntity):
 
     _attr_has_entity_name = True
     _attr_name = "Bach Cantata of the Week"
-    _attr_icon = "mdi:pipe-organ"
+    _attr_icon = "mdi:music-clef-treble"
 
     def __init__(self, entry: ConfigEntry) -> None:
         self._entry = entry
